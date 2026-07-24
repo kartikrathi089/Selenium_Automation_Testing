@@ -1,0 +1,11 @@
+Feature: Checking Login functionality & Logout functionality
+
+Scenario: Successfully Login
+Given User should open Chrome Browser 
+When User should Enter url in browser
+Then User should Type username student into Username in Edit field
+Then User should Type password Password123 into Password text field
+Then User should clicked on Push Submit button
+Then User should Verify new page URL contains practicetestautomation.com/logged_in_successfully/
+Then User should verify new page contains expected text ('Logged in Successfully' or 'Congratulation  student. You successfully logged in!) 
+Then User should Verfiy button Log out is displayed on the new page

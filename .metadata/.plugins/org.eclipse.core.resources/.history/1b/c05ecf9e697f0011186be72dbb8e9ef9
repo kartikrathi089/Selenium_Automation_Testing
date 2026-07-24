@@ -1,0 +1,14 @@
+package com.WebDriver.Commands;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+public class BrowserCommands {
+	@Test
+	
+	public void chromeBrowserTest() {
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+	}
+
+}

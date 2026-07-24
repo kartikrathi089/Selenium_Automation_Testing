@@ -1,0 +1,43 @@
+package Actions;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Utility.Helper;
+
+public class Facebook {
+
+	WebDriver driver;
+	@BeforeTest
+	public void launchBrowser() throws InterruptedException {
+		driver=Helper.startBrowser("chrome");
+		driver.get("https://www.facebook.com/reg/?entry_point=login&next=");
+		driver.manage().window().maximize();
+		Thread.sleep(10000);
+	}
+	
+	@Test
+	public void facebookTest() {
+		
+		WebElement day=driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/label[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"));
+		
+		System.out.println(day.getText());
+		Select day1=new Select(day);
+		
+		
+		List<WebElement> day_list=day1.getOptions();
+		
+		for(WebElement ele: day_list) {
+			System.out.println(ele.getText());
+		}
+		
+		
+		
+	}
+	
+}

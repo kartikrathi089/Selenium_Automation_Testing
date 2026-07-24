@@ -1,0 +1,10 @@
+package Navigation;
+
+public class NavigationTest {
+	
+	@Test
+	public void chromeTest{
+		ChromeDriver driver =new ChromeDriver();
+	}
+
+}

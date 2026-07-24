@@ -1,0 +1,32 @@
+package com.Easycalculation.Pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginEasycal {
+	
+	WebDriver driver;
+	
+	public LoginEasycal(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	@FindBy(id="log_email")
+	WebElement email;
+	
+	@FindBy(id="log_password")
+	WebElement password;
+	
+	@FindBy(xpath="(//input[@name='log_submit'])[1]")
+	WebElement login;
+	
+	public void loginEasy(String username,String pass) throws InterruptedException {
+		email.sendKeys(username);
+		password.sendKeys(pass);
+		Thread.sleep(5000);
+		login.click();
+		
+	}
+
+}

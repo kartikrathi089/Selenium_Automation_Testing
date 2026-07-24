@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;utility.screenshot&apos; to &apos;Screenshot&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumWebDriver-opencart&apos;&#x0D;&#x0A;- Original element: &apos;utility.screenshot&apos;&#x0D;&#x0A;- Renamed element: &apos;utility.Screenshot&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;screenshot&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;utility{screenshot.java[screenshot" matchStrategy="1" name="Screenshot" qualified="false" references="true" similarDeclarations="false" stamp="1784462540266" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package com.pageFactory;
+
+import org.openqa.selenium.WebDriver;
+
+import org.testng.annotations.Test;
+
+
+
+import utility.Helper;
+
+public class Teest {
+
+	@Test
+	public void exceute() throws InterruptedException {
+		WebDriver driver=Helper.startBrowser("chrome", "https://demo.opencart.com/");
+		driver.quit();
+		
+	}
+}

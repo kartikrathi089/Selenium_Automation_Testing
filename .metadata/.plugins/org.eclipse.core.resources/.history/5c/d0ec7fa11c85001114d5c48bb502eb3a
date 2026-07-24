@@ -1,0 +1,23 @@
+package com.jdbc.connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Connectiondb {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String  url="jdbc:mysql://localhost:3306/selenium_automation_testing";
+		 String name="root";
+		 String password="Kartik@123";
+		try {
+			Connection com=DriverManager.getConnection(url,name,password);
+			System.out.println("connection succesfull");
+		}catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+
+	}
+
+}

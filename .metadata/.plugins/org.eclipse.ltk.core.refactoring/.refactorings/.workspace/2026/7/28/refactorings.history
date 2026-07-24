@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FirstBDD&apos; to &apos;BDDFirstTestCase&apos;" description="Rename resource &apos;FirstBDD&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/FirstBDD" name="BDDFirstTestCase" stamp="1783666515135" updateReferences="true"/>
+</session>

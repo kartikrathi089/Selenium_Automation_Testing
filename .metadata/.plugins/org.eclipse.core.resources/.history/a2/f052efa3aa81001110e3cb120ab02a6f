@@ -1,0 +1,28 @@
+package MultipleFrame;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class MultipleFrameTest {
+	WebDriver driver;
+	
+	@BeforeTest
+	public void chromeTest(){
+		 driver =new ChromeDriver();
+		 driver.navigate().to("file:///C:/iframe/iframe.html");
+		 driver.manage().window().maximize();
+		
+	}
+	@Test
+	public void MultipleFrame() {
+		int totalFrame=driver.findElements(By.tagName("iframe")).size();
+		System.out.println("Total Frame: "+totalFrame);
+		
+		driver.switchTo().frame("easycalculation");
+		
+		
+	}
+}

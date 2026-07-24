@@ -1,0 +1,27 @@
+package com.WebDriver.Commands;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+public class BrowserCommands {
+	@Test
+	
+	public void chromeBrowserTest() {
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().window().maximize();
+		
+		String browserTitle=driver.getTitle();
+		System.out.println("BrowserTitle: "+browserTitle);
+		
+		String browserURL=driver.getCurrentUrl();
+		System.out.println('BrowserUrl: "+browserURL);
+				
+		String pageContent=driver.getContent();
+		System.out.println(pageContent);
+				
+				
+	}
+	
+
+}

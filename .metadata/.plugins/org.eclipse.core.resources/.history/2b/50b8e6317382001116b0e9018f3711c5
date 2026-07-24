@@ -1,0 +1,37 @@
+package ScreenshotDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.utility.Helper;
+
+import library.Reusability;
+
+public class screenhotdemo2 {
+	WebDriver driver;
+	@BeforeTest
+	public void Launch() throws InterruptedException {
+		driver=Helper.startBrowser("chrome");
+		driver.manage().window().maximize();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		Thread.sleep(50000);
+		
+	}
+	@Test
+	public void task() throws InterruptedException {
+		Reusability.capturedScreenShot(driver, "A.Launch Application - TakeScreenShot");
+		driver.findElement(By.id("username")).sendKeys("student");
+		driver.findElement(By.id("password")).sendKeys("Password123");
+		
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath("//button[@id='submit']")).click();
+		Reusability.capturedScreenShot(driver, "B.Launch Application - TakeScreenShot");
+		
+		
+		
+	}
+
+}

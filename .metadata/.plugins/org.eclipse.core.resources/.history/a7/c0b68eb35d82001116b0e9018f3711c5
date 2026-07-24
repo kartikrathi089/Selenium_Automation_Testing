@@ -1,0 +1,23 @@
+package Actions;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Utility.Helper;
+
+public class Facebook {
+
+	WebDriver driver;
+	@BeforeTest
+	public void launchBrowser() {
+		driver=Helper.startBrowser("driver");
+		driver.get("https://www.facebook.com/reg/?entry_point=login&next=");
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void facebookTest() {
+		
+	}
+	
+}

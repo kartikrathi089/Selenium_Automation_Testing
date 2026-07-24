@@ -1,0 +1,19 @@
+package MultipleFrame;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class MultipleFrameTest {
+	WebDriver driver;
+	
+	@Test
+	public void chromeTest(){
+		 driver =new ChromeDriver();
+		 driver.navigate().to("file:///C:/iframe/iframe.html");
+		 driver.manage().window().maximize();
+		
+	}
+	
+}

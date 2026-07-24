@@ -1,0 +1,13 @@
+package com.SelinumWebDriver.LocatorsDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ClassLocator {
+	WebDriver driver;
+	public void ChromeTest() {
+		driver=new ChromeDriver();
+		driver.navigate().to("https://www.hollandandbarrett.com/shop/vitamins-supplements/");
+	}
+
+}

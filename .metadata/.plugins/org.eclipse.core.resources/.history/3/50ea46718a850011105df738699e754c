@@ -1,0 +1,31 @@
+package com.CRUDoperation.sql;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.testng.annotations.Test;
+
+import ConnectionDB.Connectionjdbc;
+
+public class CRUDoperation {
+
+	@Test
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String query = "INSERT INTO book_detl VALUES('AI003','selenium','ide','kartik','S','2026','900.00')";
+		try(Connection com=Connectionjdbc.getConnection()){
+			Statement st=com.createStatement();
+			int row=st.executeUpdate(query);
+			System.out.println(row);
+			
+			
+		}catch(SQLException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+	
+
+}

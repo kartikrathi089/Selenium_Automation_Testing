@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="131.601" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly\target\test-classes;C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly\target\classes;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.45.0\selenium-java-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.45.0\selenium-api-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.45.0\selenium-chrome-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.45.0\selenium-chromium-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.45.0\selenium-json-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.45.0\selenium-manager-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.45.0\selenium-devtools-latest-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.45.0\selenium-devtools-v147-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.45.0\selenium-devtools-v148-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.45.0\selenium-devtools-v149-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.45.0\selenium-edge-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.45.0\selenium-firefox-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.45.0\selenium-http-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.45.0\selenium-ie-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.45.0\selenium-remote-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.63.0\opentelemetry-api-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.63.0\opentelemetry-context-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-common\1.63.0\opentelemetry-common-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.63.0\opentelemetry-exporter-logging-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.63.0\opentelemetry-sdk-common-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.63.0\opentelemetry-sdk-extension-autoconfigure-spi-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.63.0\opentelemetry-sdk-extension-autoconfigure-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.63.0\opentelemetry-sdk-trace-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.63.0\opentelemetry-sdk-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.63.0\opentelemetry-sdk-metrics-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.63.0\opentelemetry-sdk-logs-1.63.0.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.18.10\byte-buddy-1.18.10.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-os\4.45.0\selenium-os-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.45.0\selenium-safari-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.45.0\selenium-support-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ASUS\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-testng\2.35.3\allure-testng-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-java-commons\2.35.3\allure-java-commons-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-model\2.35.3\allure-model-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-test-filter\2.35.3\allure-test-filter-2.35.3.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire8090899791679236788\surefirebooter-20260721111850835_3.jar C:\Users\ASUS\AppData\Local\Temp\surefire8090899791679236788 2026-07-21T11-18-50_372-jvmRun1 surefire-20260721111850835_1tmp surefire_0-20260721111850835_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly\target\test-classes;C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly\target\classes;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.45.0\selenium-java-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.45.0\selenium-api-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.45.0\selenium-chrome-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.45.0\selenium-chromium-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.45.0\selenium-json-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.45.0\selenium-manager-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.45.0\selenium-devtools-latest-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.45.0\selenium-devtools-v147-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.45.0\selenium-devtools-v148-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.45.0\selenium-devtools-v149-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.45.0\selenium-edge-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.45.0\selenium-firefox-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.45.0\selenium-http-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.45.0\selenium-ie-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.45.0\selenium-remote-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.63.0\opentelemetry-api-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.63.0\opentelemetry-context-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-common\1.63.0\opentelemetry-common-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.63.0\opentelemetry-exporter-logging-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.63.0\opentelemetry-sdk-common-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.63.0\opentelemetry-sdk-extension-autoconfigure-spi-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.63.0\opentelemetry-sdk-extension-autoconfigure-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.63.0\opentelemetry-sdk-trace-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.63.0\opentelemetry-sdk-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.63.0\opentelemetry-sdk-metrics-1.63.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.63.0\opentelemetry-sdk-logs-1.63.0.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.18.10\byte-buddy-1.18.10.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-os\4.45.0\selenium-os-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.45.0\selenium-safari-driver-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.45.0\selenium-support-4.45.0.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ASUS\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-testng\2.35.3\allure-testng-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-java-commons\2.35.3\allure-java-commons-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-model\2.35.3\allure-model-2.35.3.jar;C:\Users\ASUS\.m2\repository\io\qameta\allure\allure-test-filter\2.35.3\allure-test-filter-2.35.3.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire8090899791679236788\surefirebooter-20260721111850835_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASUS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\ASUS\eclipse-workspace\SeleniumWebDriver-CICDUsingJenkins20thJuly"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maveb_ins/bin;C:/Program Files/Java/jdk-22/bin;C:/Program Files/Java/jdk-22/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\cursor\resources\app\bin;D:\maven\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\gradle-9.5.1\bin;C:\allure-Instalation\allure-2.44.0\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python315\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python315\;C:\Users\ASUS\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.1\bin;;C:\Users\ASUS\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Local\Programs\Antigravity\bin;D:\maven\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\Git\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="ChromeBrowserTest" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="9.415">
+    <system-out><![CDATA[Test Login | Practice Test Automation
+The test case has passed.The Actual Value Matches the Expected Value.
+The Current Url is : https://practicetestautomation.com/practice-test-login/
+The test case has passed.The Actual URL Matches the Expected URL.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 21, 2026 11:18:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="EdgeBrowser" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="4.323">
+    <system-out><![CDATA[Maven Repository: Search/Browse/Explore
+The test case has passed.The Actual Value Matches the Expected Value.
+The Current Url is : https://mvnrepository.com/
+The test case has passed.The Actual URL Matches the Expected URL.
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2026 11:19:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="FirefoxBrowser" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="6.284">
+    <system-out><![CDATA[Selenium
+The test case has passed.The Actual Value Matches the Expected Value.
+The Current Url is : https://www.selenium.dev/
+The test case has passed.The Actual URL Matches the Expected URL.
+]]></system-out>
+  </testcase>
+  <testcase name="VitaminsSupplement" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="59.941">
+    <system-out><![CDATA[https://www.hollandandbarrett.com/shop/product/holland-barrett-high-strength-effervescent-vit-c-1000mg-orange-flavour-20-tablets-6100006567
+https://www.hollandandbarrett.com/shop/vitamins-supplements/vitamins/vitamin-drinks/
+https://www.hollandandbarrett.com/shop/vitamins-supplements/vitamins/vitamin-drinks/
+https://www.hollandandbarrett.com/shop/product/holland-barrett-high-strength-effervescent-vit-c-1000mg-orange-flavour-20-tablets-6100006567
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2026 11:19:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="VitaminsLink" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="41.289">
+    <system-out><![CDATA[Number of Links :1015
+Shop now
+Redeem instore | T&Cs
+Store finder
+Help Centre
+
+
+
+
+
+Shop
+Offers
+Health & Wellness
+Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basket
+Home
+Advanced nutritional support for conception
+New In Vitamins & Supplements
+Buy one get one free
+Save up to 1/2 price
+Hair, Skin & Nails
+Collagen & Silica
+Muscle & Joint Support
+Digestive Health & Everyday Support
+Magnesium
+Mushrooms & Functional Blends
+Electrolytes
+Vitamins
+Minerals
+
+
+
+
+
+
+
+
+
+
+
+
+Holland & Barrett
+Marine Collagen with Vitamin C 180 Tablets
+(1455)
+Buy 1 Get 1 Free
+£49.99
+£0.28/1 Tablet
+Add to basket
+New Packaging
+Holland & Barrett
+High Strength Co-Q10 100mg 90 Capsules
+(425)
+Buy 1 Get 1 Free
+£37.89
+£0.42/1 Capsule
+Add to basket
+Holland & Barrett
+Max Strength Slow Release Vitamin B12 1000ug 180 Tablets
+(2083)
+Buy 1 Get 1 Free
+£21.69
+£0.12/1 Tablet
+Add to basket
+Holland & Barrett
+Milk Thistle 100mg 60 Capsules
+(1208)
+Buy 1 Get 1 Free
+£19.49
+£0.32/1 Capsule
+Add to basket
+New Packaging
+Holland & Barrett
+Magnesium Bisglycinate 375mg 90 Capsules
+(852)
+Buy 1 Get 1 Free
+£19.29
+£0.21/1 Capsule
+Add to basket
+Holland & Barrett
+Vitamin D3 4000 I.U. 100ug 120 Tablets
+(1127)
+Buy 1 Get 1 Free
+£16.99
+£0.14/1 Tablet
+Add to basket
+Holland & Barrett
+Omega 3 Fish Oil 1000mg 240 Capsules
+(2926)
+Buy 1 Get 1 Free
+£28.99
+£0.12/1 Capsule
+Add to basket
+Holland & Barrett
+Omega 3 Fish Oil 1500mg 120 Capsules
+(610)
+Buy 1 Get 1 Free
+£25.99
+£0.22/1 Capsule
+Add to basket
+Health & Her
+Perimenopause Multi Nutrient Supplement 60 Capsules
+(583)
+25% Off
+£17.99
+£23.99
+£0.30/1 Capsule
+Add to basket
+Holland & Barrett
+Omega 3 Fish Oil 1000mg 120 Capsules
+(2926)
+3 For 2 Mix & Match
+£17.99
+£0.15/1 Capsule
+Add to basket
+Holland & Barrett
+Bovine Collagen 3000mg 180 Tablets
+(1303)
+Buy 1 Get 1 Free
+£32.99
+£0.18/1 Tablet
+Add to basket
+New Packaging
+18+
+Holland & Barrett
+Ashwagandha KSM-66 600mg 30 Capsules
+(731)
+Buy 1 Get 1 Free
+£16.29
+£0.54/1 Capsule
+Add to basket
+New Packaging
+Holland & Barrett
+Berberine 1000mg 60 Capsules
+(112)
+3 For 2 Mix & Match
+£18.50
+£0.31/1 Capsule
+Add to basket
+New In
+Holland & Barrett
+Vitamin C 1000mg 240 Tablets
+(1813)
+Buy 1 Get 1 Free
+£17.99
+£0.07/1 Tablet
+Add to basket
+New Packaging
+18+
+Holland & Barrett
+Biotin Hair High Strength Complex 30 Capsules
+(309)
+Buy 1 Get 1 Free
+£12.99
+£0.43/1 Capsule
+Add to basket
+Holland & Barrett
+Calcium Magnesium Vitamin D & Zinc 120 Tablets
+(1042)
+Buy 1 Get 1 Free
+£9.99
+£0.08/1 Tablet
+Add to basket
+Holland & Barrett
+Multivitamins 240 Tablets
+(237)
+Buy 1 Get 1 Free
+£8.29
+£0.03/1 Tablet
+Add to basket
+Applied Nutrition
+Berberine 1000mg x 60 Capsules
+(538)
+20% Off
+£15.20
+RRP: £19.00
+£0.25/1 Capsule
+Add to basket
+Holland & Barrett
+Magnesium & Zinc 90 Tablets
+(986)
+Buy 1 Get 1 Free
+£8.59
+£0.10/1 Tablet
+Add to basket
+Applied Nutrition
+Marine Collagen 300g
+(1064)
+30% Off
+£21.00
+£30.00
+£7.00/100 g
+Add to basket
+Sold by
+New Leaf
+New Leaf Products
+Magnesium Glycinate 360 Capsules
+(15)
+18% Off
+£18.00
+£21.95
+£0.05/1 Each
+Add to basket
+New In
+Holland & Barrett
+Pure Cod Liver Oil 1000mg 240 Capsules
+(4047)
+Buy 1 Get 1 Free
+£24.99
+£0.10/1 Capsule
+Add to basket
+New Packaging
+Novomins
+NAD+ 60 Blackberry Flavour Gummies
+(16)
+3 For 2 Mix & Match
+£24.99
+£0.42/1 gummy
+Add to basket
+New In
+Holland & Barrett
+Friendly Bacteria 50 Billion 30 Capsules
+(349)
+Buy 1 Get 1 Free
+£29.99
+£1.00/1 Capsule
+Add to basket
+New Packaging
+Zooki
+Super Strength Marine Collagen 11,000mg Variety Pack 30 Sachets
+(195)
+Buy 1 Get 1 Half Price
+£79.99
+£2.67/1 Sachet
+Add to basket
+New In
+16+
+Novomins
+Libido Turn Me On Raspberry & Peach Flavoured 60 Gummies
+(284)
+3 For 2 Mix & Match
+£19.99
+£0.33/1 Chewable
+Add to basket
+Sold by
+New Leaf
+New Leaf Products
+Magnesium Complex 4in1 Glycinate, Citrate, Malate & Oxide 360 Capsules
+(10)
+18% Off
+£18.00
+£21.95
+£0.05/1 Each
+Add to basket
+New In
+Swedish Collagen
+Deluxe Marine Collagen 12500mg Berry Flavour 500ml 20 Doses
+(838)
+30% Off
+£23.79
+RRP: £33.99
+£4.76/100 ml
+Add to basket
+Zooki
+Super Strength Marine Collagen 11,000mg Sour Cherry Flavour 30 Sachets
+(299)
+Buy 1 Get 1 Half Price
+£79.99
+£2.67/1 Sachet
+Add to basket
+New In
+Holland & Barrett
+Glucosamine Sulphate 1000mg 240 Tablets
+(1036)
+Buy 1 Get 1 Free
+£29.99
+£0.12/1 Tablet
+Add to basket
+New Packaging
+Holland & Barrett
+Skin, Hair & Nails Formula 90 Tablets
+(1462)
+Buy 1 Get 1 Free
+£14.99
+£0.17/1 Tablet
+Add to basket
+Vitabiotics
+Jointace Max Tablets Triple Pack Super Strength 84 Tablets
+(374)
+25% Off
+£20.47
+RRP: £27.30
+£0.24/1 Tablet
+Add to basket
+Holland & Barrett
+High Strength Cranberry Extract 400mg 90 Tablets
+(700)
+Buy 1 Get 1 Free
+£13.99
+£0.16/1 Tablet
+Add to basket
+Zooki
+Super Strength Marine Collagen 11,000mg 14 Sachets
+(179)
+Buy 1 Get 1 Half Price
+£39.99
+£2.86/1 Sachet
+Add to basket
+18+
+Holland & Barrett
+Apple Cider Vinegar 250mg with the Mother Apple Flavour 60 Gummies
+(234)
+Buy 1 Get 1 Free
+£14.49
+£0.24/1 Chewable
+Add to basket
+Holland & Barrett
+Pure Cod Liver Oil 1000mg 120 Capsules
+(4047)
+Buy 1 Get 1 Free
+£17.19
+£0.14/1 Capsule
+Add to basket
+New Packaging
+Holland & Barrett
+Multivitamin Strawberry Flavour 60 Gummies
+(670)
+Buy 1 Get 1 Free
+£11.99
+£0.20/1 gummy
+Add to basket
+New In
+Holland & Barrett
+Calcium + Magnesium & Vitamin D 180 Tablets
+(818)
+Buy 1 Get 1 Free
+£10.19
+£0.06/1 Tablet
+Add to basket
+Holland & Barrett
+Live Friendly Bacteria 20 Billion 60 Capsules
+(1149)
+Buy 1 Get 1 Free
+£23.99
+£0.40/1 Capsule
+Add to basket
+New Packaging
+Vital Proteins
+Collagen Peptides Unflavoured Powder 567g
+(2477)
+28% Off
+£35.99
+RRP: £49.99
+£6.35/100 g
+Add to basket
+Next page
+InfiniVit
+UroGuard Complex 90 Capsules
+Summer Sale
+£15.99
+£19.99
+£0.18/1 Unit
+Add to basket
+4
+KIKI HEALTH
+Liquid Chlorophyll - 125ml
+Summer Sale
+£12.71
+£14.95
+£10.17/100 ml
+Add to basket
+MAG365
+Mag365 Bone Formula Unflavoured Powder 180g
+£24.95
+£0.69/5 g
+Add to basket
+KIKI HEALTH
+Ionic Chromium Liquid Concentrate - 50ml
+£20.00
+£40.00/100 ml
+Add to basket
+Known Nutrition
+Ashwagandha 3000mg Apple Flavour 60 Gummies
+£12.99
+£0.22/1 gummy
+Add to basket
+3
+KIKI HEALTH
+Organic Psyllium Husk Powder - 275g
+£19.95
+£7.25/100 g
+Add to basket
+5
+Conceive Plus
+Birth Control Cleanse 60 Capsules
+£22.99
+£0.38/1 Capsule
+Add to basket
+4.83
+Vitawell
+Magnesium Glycinate 120s 120Capsules
+Summer Sale
+£6.00
+RRP: £8.00
+£0.05/1 Capsule
+Add to basket
+5
+KIKI HEALTH
+Ionic Electrolytes Liquid Concentrate - 50ml
+£20.00
+£40.00/100 ml
+Add to basket
+5
+18+
+New Leaf Products
+Omega-3 180 Softgels
+Summer Sale
+£12.26
+£14.95
+£0.07/1 Each
+Add to basket
+5
+18+
+Bettervits
+Glucosamine Complex with MSM & Turmeric 90 Capsules
+£35.00
+£0.39/1 Capsule
+Add to basket
+1
+KIKI HEALTH
+Ionic Calcium Liquid Concentrate - 50ml
+£20.00
+£40.00/100 ml
+Add to basket
+5
+Ayurvediq
+Organic Shatavari Capsules 120 Capsules
+Summer Sale
+£14.99
+RRP: £19.99
+£0.12/1 Unit
+Add to basket
+5
+KIKI HEALTH
+Ionic Zinc Liquid Concentrate - 50ml
+£20.00
+£40.00/100 ml
+Add to basket
+Verve
+Apigenin 100mg - Longevity & Quality Sleep Support - 30 Servings
+£13.99
+RRP: £19.99
+£0.47/1 Unit
+Add to basket
+Taka Turmeric
+Organic Turmeric & Black Pepper Extract Capsules 60 Capsules
+£11.99
+£0.20/1 Unit
+Add to basket
+KIKI HEALTH
+Liquid Chlorophyll - 250ml
+Summer Sale
+£23.76
+£27.95
+£9.50/100 ml
+Add to basket
+Beurer
+Hearing Amplifier 64106 White Ha20
+Summer Sale
+£18.99
+RRP: £22.99
+£18.99/1 Item
+Add to basket
+Love Health
+Multi Blend Mushroom Capsules 60Capsules
+£16.79
+RRP: £23.99
+£0.19/1 Capsule
+Add to basket
+Taka Turmeric
+Organic Immune Support Capsules 90 Capsules
+£19.99
+£0.22/1 Unit
+Add to basket
+4.69
+Holland & Barrett
+Magnesium Bisglycinate 375mg 90 Capsules
+Buy 1 Get 1 Free
+£19.29
+£0.21/1 Capsule
+Add to basket
+4.72
+Holland & Barrett
+Omega 3 Fish Oil 1000mg 240 Capsules
+Buy 1 Get 1 Free
+£28.99
+£0.12/1 Capsule
+Add to basket
+4.33
+Applied Nutrition
+Berberine 1000mg x 60 Capsules
+Save up to 1/2 Price
+£15.20
+RRP: £19.00
+£0.25/1 Capsule
+Add to basket
+4.85
+Holland & Barrett
+Pure Cod Liver Oil 1000mg 240 Capsules
+Buy 1 Get 1 Free
+£24.99
+£0.10/1 Capsule
+Add to basket
+4.59
+Holland & Barrett
+Vitamin C 1000mg 240 Tablets
+Buy 1 Get 1 Free
+£17.99
+£0.07/1 Tablet
+Add to basket
+4.61
+18+
+Holland & Barrett
+Ashwagandha KSM-66 600mg 30 Capsules
+Buy 1 Get 1 Free
+£16.29
+£0.54/1 Capsule
+Add to basket
+4.13
+Holland & Barrett
+Berberine 1000mg 60 Capsules
+3 For 2 Mix & Match
+£18.50
+£0.31/1 Capsule
+Add to basket
+4.63
+Swedish Collagen
+Deluxe Marine Collagen 12500mg Berry Flavour 500ml 20 Doses
+Save up to 1/2 Price
+£23.79
+RRP: £33.99
+£4.76/100 ml
+Add to basket
+4.68
+Vital Proteins
+Collagen Peptides Unflavoured Powder 567g
+Save up to 1/2 Price
+£35.99
+RRP: £49.99
+£6.35/100 g
+Add to basket
+4.75
+Holland & Barrett
+Max Strength Slow Release Vitamin B12 1000ug 180 Tablets
+Buy 1 Get 1 Free
+£21.69
+£0.12/1 Tablet
+Add to basket
+4.76
+Holland & Barrett
+Vitamin D3 1000 I.U 25µg 120 Tablets
+Buy 1 Get 1 Free
+£7.35
+£0.06/1 Tablet
+Add to basket
+4.82
+Holland & Barrett
+Vitamin D3 4000 I.U. 100ug 120 Tablets
+Buy 1 Get 1 Free
+£16.99
+£0.14/1 Tablet
+Add to basket
+4.78
+Optibac
+For Women Food Supplement 30 Capsules
+Save up to 1/2 Price
+£15.37
+£20.50
+£0.51/1 Capsule
+Add to basket
+4.72
+Holland & Barrett
+Vitamin D3 400 I.U. 10μg 240 Tablets
+Buy 1 Get 1 Free
+£5.59
+£0.02/1 Tablet
+Add to basket
+4.66
+18+
+Holland & Barrett
+Biotin Hair High Strength Complex 30 Capsules
+Buy 1 Get 1 Free
+£12.99
+£0.43/1 Capsule
+Add to basket
+4.61
+New Leaf Products
+Magnesium Glycinate 120 Capsules
+Summer Sale
+£10.62
+£12.95
+£0.09/1 Capsule
+Add to basket
+4.74
+Holland & Barrett
+Milk Thistle 100mg 60 Capsules
+Buy 1 Get 1 Free
+£19.49
+£0.32/1 Capsule
+Add to basket
+4.7
+Holland & Barrett
+High Strength Co-Q10 100mg 90 Capsules
+Buy 1 Get 1 Free
+£37.89
+£0.42/1 Capsule
+Add to basket
+4.6
+Holland & Barrett
+Omega 3 Fish Oil 1500mg 120 Capsules
+Buy 1 Get 1 Free
+£25.99
+£0.22/1 Capsule
+Add to basket
+4.66
+New Nordic
+Magic Magnesium Glycinate 600mg 60 Tablets
+Save up to 1/2 Price
+£15.44
+RRP: £20.59
+£0.26/1 Tablet
+Add to basket
+Food & Drink
+Active Nutrition
+Beauty
+Weight Management
+At-Home Tests
+Health & Wellness
+Medicines & Healthcare
+Vegan
+Speak to an Advisor
+Book your free, 1:1 online consultation with one of our qualified advisors
+Find out more
+H&B&Me
+Save money. Earn points. Redeem instantly.
+Find out more
+My Account
+Subscribe & Save
+Save up to 45% on your favourite products plus get free delivery on all orders over £10
+
+Privacy notice.
+
+
+
+
+
+Help Centre
+Contact Us
+Track your order
+My Account
+Student Discount
+Store Locator
+Home Delivery
+Click & Collect
+Returns
+International Delivery
+Product Recall
+GDPR Data Rights Requests
+Online Order Withdrawal
+Who we are
+Working at Holland & Barrett
+Press Releases
+Corporate Website
+Privacy - How we use your data
+Terms & Conditions
+Holland & Barrett International
+Tax Strategy
+Modern Slavery Statement
+Supplying Holland & Barrett
+Our Support for Ukraine
+B-Corps at H&B
+View all our services
+Weight Loss Service by Phlo
+Blood Testing by Randox
+Face the Future
+Free Wellness Consultations
+H&B App
+Subscribe & Save
+Live Chat
+Privacy - How we use your data
+Terms & Conditions
+Tax Strategy
+Modern Slavery Statement
+
+
+
+
+
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2026 11:20:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="DropDownList" classname="com.jenkinsCICDDemoTest.JenkinsCICDTest" time="9.142">
+    <system-out><![CDATA[India
+Total months count in List : 10
+Country Names in List : United States
+Country Names in List : Canada
+Country Names in List : United Kingdom
+Country Names in List : Germany
+Country Names in List : France
+Country Names in List : Australia
+Country Names in List : Japan
+Country Names in List : China
+Country Names in List : Brazil
+Country Names in List : India
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2026 11:20:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+</testsuite>

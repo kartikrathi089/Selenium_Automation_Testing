@@ -1,0 +1,19 @@
+package com.pageFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+import LoginPage.Login;
+import utility.Helper;
+
+public class Teest {
+
+	@Test
+	public void exceute() throws InterruptedException {
+		WebDriver driver=Helper.startBrowser("chrome", "https://www.opencart.com/");
+         Login log=PageFactory.initElements(driver,Login.class);
+		
+		log.loginAccount("kartikrathi089@gmail.com", "Makasam@123");
+		
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="Utility.Helper"/>
+    <fullyQualifiedTypeName name="com.utility.Helper"/>
+    <fullyQualifiedTypeName name="library.Reusability"/>
+    <fullyQualifiedTypeName name="utility.Helper"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="com.Easycalculation.Pages.LoginEasycal"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.latest.page.model.Screenshot"/>
+    <fullyQualifiedTypeName name="utility.Screenshot"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

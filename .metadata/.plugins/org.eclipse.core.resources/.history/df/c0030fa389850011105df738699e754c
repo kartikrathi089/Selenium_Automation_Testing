@@ -1,0 +1,18 @@
+package com.CRUDoperation.sql;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import ConnectionDB.Connectionjdbc;
+
+public class CRUDoperation {
+	
+	public static void addStudent() {
+		try(Connection com=Connectionjdbc.getConnection()){
+			
+		}catch(SQLException e) {
+			
+			
+		}
+	}
+}
