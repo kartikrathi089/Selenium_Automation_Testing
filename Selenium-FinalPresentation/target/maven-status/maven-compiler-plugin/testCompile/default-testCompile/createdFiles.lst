@@ -1,0 +1,7 @@
+PageFactory\PageFactoryClass.class
+utility\ExcelDataReader.class
+PageObjectModel\BaseClass.class
+PageObjectModel\LoginLogout.class
+utility\BrowserFactory.class
+utility\ConfigDataProvider.class
+utility\Screenshot.class

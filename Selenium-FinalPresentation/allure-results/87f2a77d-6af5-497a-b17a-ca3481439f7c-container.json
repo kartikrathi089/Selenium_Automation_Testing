@@ -1,0 +1,1 @@
+{"uuid":"87f2a77d-6af5-497a-b17a-ca3481439f7c","name":"PageFactory.PageFactoryClass","children":["869c2ef5-892b-4f63-9a41-b69d3bfc0514"],"befores":[{"name":"BrowserTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1785130337282,"stop":1785130341276}],"afters":[],"start":1785130337268,"stop":1785130341872}
